@@ -1,0 +1,14 @@
+receptor = rec.pdbqt
+ligand = Ligand_bez_gr_metylowej.pdbqt
+
+center_x =  0.9
+center_y =  50.1
+center_z =  65.6
+
+size_x = 20
+size_y = 20
+size_z = 20
+
+seed = 123
+
+out = output_ligand_smiles_niezmod.pdbqt

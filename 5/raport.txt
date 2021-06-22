@@ -1,0 +1,15 @@
+1. Plik z dokowaniem
+2. Sprawdź czy rzeczywiście najniższe RMSD posiada pierwsza struktura na liście.
+3. Wykonałem pare dokowań z różnymi random seed, dla większości wynik był gorszy, a dla niektórych był taki sam jak dla pierwotnego random seed.
+4. W utworzonym pliku.pdbqt (poleceniami pokazanymi poniżej) niektóre koordynaty mają wartość -non, co uniemożliwia wykonanie polecenia 5.
+
+>babel ligand.mol2 -O ligand.smi --gen3d
+	1 molecule converted
+	88 info messages 368 audit log messages 
+
+>babel ligand.smi -O smi.pdbqt --gen3d
+	1 molecule converted
+	790 audit log messages 
+
+
+5. W pliku smi.pdbqt są koordynaty o wartości -non co uniemożliwia wykonanie polecenia.
