@@ -1,0 +1,12 @@
+receptor = rec.pdbqt
+
+center_x =  0.9
+center_y =  50.1
+center_z =  65.6
+
+size_x = 20
+size_y = 20
+size_z = 20
+
+exhaustiveness = 6
+num_modes = 9
